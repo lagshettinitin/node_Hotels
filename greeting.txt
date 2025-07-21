@@ -1,0 +1,25 @@
+first we created a folder in the my work(d) with help of command prompt :
+like first we enter command D and now we in D drive means we in the my work drive undertand 
+now we want to create a folder in the my work(d) so we entered a cmd is :
+mkdir backend_project (backend_project: it is the what you want to put a name for your project or folder name)
+ 
+okay now a backend_project folder created in the my work(D) and i want to told some thing is mkdir means make a directory okay
+now go vs code and open the folder of we created in the my work (d)
+the next step is install npm the for is "npm init"
+the all pakages are intalled in your foler or project 
+and are you want auto save then install nodemon the command for "npm i nodemon"
+
+when your are install in npm there you have see some packet.json and packet.lock.json two files are created 
+
+and learn functions and call back functions 
+The command for to run a program is "node file_name.js" enter the your file will excueted instead okay this is command for to run a program okay 
+same here also we see in reactjs only we created components and it import the app.js i mean we cannot write any code in app.js okay same here also 
+ 
+only file can run other files are import in that main file here main file is server.js understand okay how you 
+import the file in the another file the code is "var any name=require('filename') okay
+
+we learn some topics := os and fs and lodash 
+
+this is actula done in day 2 
+
+..........................-------------------------------------------------------------------------------------------------------------------------------------hi hellow dell
