@@ -9,10 +9,20 @@ app.use(bodyParser.json());
 const Person = require('./module/Person')
 const MenuItems = require('./module/MenuItems')
 const Task = require('./module/Task')
+//middleware function
 
+const logRequest = (req,res,next)=>{
+  console.log(`${new Date().toLocaleString()} request made to: ${req.originalUrl}`);
+  next();
+}
+
+app.use(logRequest);
 app.get('/',(req,res)=>{
   res.send("welcome to my blog")
 })
+
+
+
 app.get('/nitin', (req, res) => {
     const nitin={
         "name":"nitin",
